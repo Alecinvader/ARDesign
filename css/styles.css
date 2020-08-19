@@ -17,3 +17,27 @@
 .test {
   text-transform: capitalize;
 }
+.nav-item {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.circle-holder {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+
+  background-color: #cbba83;
+}
+.circle-holder {
+  font-size: 32px;
+}
+.nav-link-text {
+  color: red;
+}
+.page-indicator {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #cbba83;
+}
