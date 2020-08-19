@@ -1,4 +1,19 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
 .hero-background {
   height: 100vh;
   background-color: #607d8b;
+}
+.portfolio-text {
+  font-family: "Roboto", sans-serif;
+  color: #cbba83;
+}
+.alec-name {
+  font-family: "Roboto";
+  color: white;
+}
+.test {
+  text-transform: capitalize;
 }
