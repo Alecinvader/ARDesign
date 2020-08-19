@@ -41,3 +41,20 @@
   border-radius: 50%;
   background-color: #cbba83;
 }
+.testimonials {
+  height: 30vh;
+  background-color: white;
+}
+.about {
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+.personal-photo {
+  background-image: url("../images/Group\ 14.png");
+  background-size: cover;
+  height: 30vh;
+}
+.about-me-col {
+  background-color: #607d8b;
+  border-radius: 0 15px 15px 0;
+}
