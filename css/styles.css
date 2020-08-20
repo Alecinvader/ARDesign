@@ -58,3 +58,18 @@
   background-color: #607d8b;
   border-radius: 0 15px 15px 0;
 }
+.about-card {
+  position: relative;
+  background-color: red;
+  height: 500px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.about-card-overlay {
+  background-color: blue;
+  height: 200px;
+  width: 100%;
+  border-radius: 0 15px 15px 15px;
+}
+.about-cards-row {
+}
