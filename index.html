@@ -83,8 +83,8 @@
       </section>
     </div>
 
-    <section class="about py-5">
-      <div class="row justify-content-center">
+    <section class="about py-5 px-0 container-fluid mx-0">
+      <div class="row justify-content-center mx-0">
         <div class="col-3 personal-photo"></div>
         <div class="col-4 about-me-col pl-4 py-3 pr-5">
           <h2 class="about-me-title">About me</h2>
@@ -96,15 +96,32 @@
       <div
         class="row justify-content-center align-self-center mt-5 about-cards-row mx-auto"
       >
-        <div
-          class="col-sm about-card d-flex flex-column justify-content-end"
-          id="about-card-1"
-        >
-          <div class="about-card-overlay">d</div>
+        <!-- Instead of having it be one element inside a column just have two rows and two columns in each 
+      which stacks on top. Or, just  -->
+        <div class="col">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-sm about-card d-flex align-items-center">
+              <img
+                src="images/Group 14.png"
+                alt="Universtiy of Utah"
+                class="card-pictures"
+              />
+            </div>
+            <div class="col-sm about-card"></div>
+            <div class="col-sm about-card"></div>
+            <div class="col-sm about-card"></div>
+          </div>
+          <div class="row">
+            <div
+              class="col-sm about-card-overlay d-flex justify-content-center align-items-center"
+            >
+              Studying
+            </div>
+            <div class="col-sm about-card-overlay">d</div>
+            <div class="col-sm about-card-overlay">d</div>
+            <div class="col-sm about-card-overlay">d</div>
+          </div>
         </div>
-        <div class="col-sm about-card" id="about-card-2"></div>
-        <div class="col-sm about-card" id="about-card-3"></div>
-        <div class="col-sm about-card" id="about-card-4"></div>
       </div>
     </section>
 

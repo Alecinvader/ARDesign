@@ -63,41 +63,26 @@
 .about-card {
   position: relative;
   background-color: white;
-  height: 500px;
-  border-radius: 15px;
+  height: 350px;
+  border-radius: 15px 15px 0 0;
   margin-right: 20px;
   margin-left: 20px;
-  padding: 0px;
+  padding: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#about-card-1,
-#about-card-2,
-#about-card-3,
-#about-card-4 {
-  transition: padding 0.5s;
-}
-#about-card-1:hover {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#about-card-2:hover {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#about-card-3:hover {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-#about-card-4:hover {
-  padding-left: 30px;
-  padding-right: 30px;
-}
+
 .about-card-overlay {
   background-color: #607d8b;
-  height: 200px;
+  height: 150px;
   width: 100%;
-  border-radius: 0 20px 15px 15px;
+  border-radius: 0 0 15px 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .about-cards-row {
   width: 65vw;
+}
+.card-pictures {
+  width: 100%;
+  height: auto;
 }
