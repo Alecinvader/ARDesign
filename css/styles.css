@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -63,12 +63,12 @@
 .about-card {
   position: relative;
   background-color: white;
-  height: 350px;
+  height: 300px;
   border-radius: 15px 15px 0 0;
   margin-right: 20px;
   margin-left: 20px;
   padding: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-card-overlay {
@@ -78,6 +78,7 @@
   border-radius: 0 0 15px 15px;
   margin-left: 20px;
   margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-cards-row {
   width: 65vw;
@@ -85,4 +86,33 @@
 .card-pictures {
   width: 100%;
   height: auto;
+}
+.about-card-text {
+  color: #ffffe5;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+.projects {
+  height: 100vh;
+  background-color: #607d8b;
+}
+.project-card {
+  padding: 0;
+  background-color: #8eacbb;
+  border-radius: 0 15px 15px 0;
+}
+.project-actions {
+}
+.personal-photo-standalone {
+  border-radius: 15px 0 0 15px;
+}
+.projects-heading {
+  font-weight: 700;
+  color: white;
+}
+.project-1 {
+  background-image: url("/images/recipeasy.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 }
