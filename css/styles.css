@@ -45,6 +45,9 @@ body {
   height: 30vh;
   background-color: white;
 }
+.skill-badge {
+  background-color: #cbba83;
+}
 .about {
   height: 100vh;
   background-color: #e5e5e5;
