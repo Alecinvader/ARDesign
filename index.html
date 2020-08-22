@@ -66,9 +66,12 @@
               </ul>
             </div>
 
-            <div class="col-3 d-flex justify-content-center">
-              <div class="row align-items-center align-center text-center">
-                <div class="circle-holder align-top">+</div>
+            <div class="col-3 justify-content-center">
+              <div class="row text-center">
+                <div class ="d-flex flex-column align-items-center justify-content-center">
+                  <span class="circle-holder"><p>+</p></span>
+             
+                </div>
               </div>
             </div>
           </div>
@@ -83,42 +86,50 @@
       </section>
     </div>
     <!-- In order for the columns to correct on moible have to hide the blue boxes on medium and enable the column versions on lower -->
-    <section class="about py-5 px-0 container-fluid mx-0">
+    <section class="about pt-4 px-0 container-fluid mx-0">
       <div class="row justify-content-center mx-0">
         <div class="col-md-3 personal-photo"></div>
         <div class="col-md-4 about-me-col pl-4 py-3 pr-5">
-          <h2 class="about-me-title">About me</h2>
+          <h2 class="about-me-title ">About me</h2>
           <hr />
           <p class="about-me-text">Lorem ipsum</p>
         </div>
       </div>
 
+      <a href ="./pages/test.html" target="_blank">Test Page </a>
+
       <div
-        class="row justify-content-center align-self-center mt-5 about-cards-row mx-auto"
+        class="row d-flex  flex-cjustify-content-center align-self-center mx-auto"
       >
         <!-- Instead of having it be one element inside a column just have two rows and two columns in each 
       which stacks on top. Or, just  -->
         <div class="col">
           <div class="row justify-content-center align-items-center">
-            <div class="col-sm about-card d-flex align-items-center">
+            <div class="col-3 about-card d-flex align-items-center">
               <img
                 src="images/uofulogo.png"
                 alt="Universtiy of Utah"
                 class="card-pictures"
               />
             </div>
-            <div class="col-sm about-card">
+            <div class="col-3 d-flex align-items-center about-card">
               <img
                 src="images/companies.png"
                 alt="Instructure and Cred3"
                 class="card-pictures"
               />
             </div>
-            <div class="col-sm about-card"></div>
+            <div class="col-3 d-flex about-card">
+              <img
+                src="images/companies.png"
+                alt="Instructure and Cred3"
+                class="card-pictures"
+              />
+            </div>
           </div>
-          <div class="row">
+          <div class="row justify-content-center">
             <div
-              class="col-sm about-card-overlay d-flex justify-content-center align-items-center text-center"
+              class="col-3 about-card-overlay d-flex justify-content-center align-items-center text-center"
             >
               <p class="about-card-text">
                 In the undergraduate program for Computer Science and a first
@@ -126,14 +137,18 @@
               </p>
             </div>
             <div
-              class="col-sm about-card-overlay d-flex justify-content-center align-items-center text-center"
+              class="col-3 about-card-overlay d-flex justify-content-center align-items-center text-center"
             >
               <p class="about-card-text">
                 Worked a combined total of 9 months with these companies to
                 build 2 full-stack projects.
               </p>
             </div>
-            <div class="col-sm about-card-overlay">d</div>
+            <div class="col-3 about-card-overlay">
+              <p class="about-card-text">
+                
+              </p>
+            </div>
           </div>
         </div>
       </div>

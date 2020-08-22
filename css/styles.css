@@ -49,8 +49,14 @@ body {
   height: 100vh;
   background-color: #e5e5e5;
 }
+.about-me-title {
+  color: white; 
+}
+.about-me-text {
+  color: white; 
+}
 .personal-photo {
-  background-image: url("../images/0.jpg");
+  background-image: url("../images/headshotblur.jpg");
   background-size: cover;
   height: 30vh;
   background-position: center;
@@ -81,14 +87,14 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-cards-row {
-  width: 65vw;
+  
 }
 .card-pictures {
   width: 100%;
   height: auto;
 }
 .about-card-text {
-  color: #ffffe5;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
