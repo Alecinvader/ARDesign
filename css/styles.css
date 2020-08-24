@@ -13,14 +13,19 @@ body {
 }
 .alec-name {
   font-family: "Roboto";
-  color: white;
+  color: black;
 }
 .test {
   text-transform: capitalize;
 }
 .nav-item {
   font-family: "Roboto";
-  font-weight: 700;
+}
+.github-link {
+  color: black;
+}
+.github-link:hover {
+  color: #cbba83;
 }
 
 .circle-holder {
@@ -30,9 +35,7 @@ body {
 
   background-color: #cbba83;
 }
-.circle-holder {
-  font-size: 32px;
-}
+
 .nav-link-text {
   color: red;
 }
