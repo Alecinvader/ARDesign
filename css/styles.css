@@ -4,7 +4,7 @@ body {
 
 .hero-background {
   height: 100vh;
-  background-color: #607d8b;
+  background-color: #dbdbdb;
 }
 .portfolio-text {
   font-family: "Roboto", sans-serif;
@@ -52,12 +52,38 @@ body {
   height: 100vh;
   background-color: #e5e5e5;
 }
+.main-area-row {
+  height: 85%;
+}
+
+/* Testing area */
+
+.test-card {
+  background-image: url("../images/uofulogo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.full-card {
+  background-color: #cbba83;
+}
+.height-adjustment {
+  height: 100%;
+}
+.experience-card-image {
+  width: 200px;
+  heigth: 200px;
+}
+
 .about-me-title {
-  color: white; 
+  color: white;
 }
 .about-me-text {
-  color: white; 
+  color: white;
 }
+
+/* Chief beef */
+
 .personal-photo {
   background-image: url("../images/headshotblur.jpg");
   background-size: cover;
@@ -90,7 +116,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-cards-row {
-  
 }
 .card-pictures {
   width: 100%;
