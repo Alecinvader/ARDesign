@@ -59,9 +59,10 @@ body {
 .main-area-row {
   height: 85%;
 }
-
-/* Testing area */
-
+/* Testing area  Clean this up*/
+.card-subtitle {
+  color: rgba(0, 0, 0, 0.5);
+}
 .test-card {
   background-image: url("../images/uofulogo.png");
   background-size: contain;
