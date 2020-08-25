@@ -109,7 +109,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project-action-sidebar {
-  background-color: white;
+  background-color: #607d8b;
   border-radius: 0 15px 15px 0;
 }
 
@@ -121,13 +121,22 @@ body {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+.project-link {
+  color: white;
+}
 .about-card-text {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
 #library-project {
-  background-image: url("../images/headshot.JPG");
+  background-image: url("../images/libraryapp.gif");
+  background-size: cover;
+
+  background-repeat: none;
+}
+#recipe-project {
+  background-image: url("../images/recipeasygif.gif");
   background-size: cover;
 }
 .project-card-row {
