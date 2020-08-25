@@ -27,7 +27,12 @@ body {
 .github-link:hover {
   color: #cbba83;
 }
-
+.quote-text {
+  color: white;
+}
+.quote-author {
+  color: rgba(255, 255, 255, 0.7);
+}
 .circle-holder {
   border-radius: 50%;
   height: 35px;
@@ -46,8 +51,8 @@ body {
   background-color: #cbba83;
 }
 .testimonials {
-  height: 30vh;
-  background-color: white;
+  height: 100%;
+  background-color: #607d8b;
 }
 .skill-badge {
   background-color: #cbba83;
@@ -59,32 +64,15 @@ body {
 .main-area-row {
   height: 85%;
 }
-/* Testing area  Clean this up*/
 .card-subtitle {
   color: rgba(0, 0, 0, 0.5);
 }
-.test-card {
-  background-image: url("../images/uofulogo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
-.full-card {
-  background-color: #cbba83;
-}
 .height-adjustment {
   height: 100%;
 }
 .experience-card-image {
   width: 200px;
-  heigth: 200px;
-}
-
-.about-me-title {
-  color: white;
-}
-.about-me-text {
-  color: white;
 }
 
 /* Chief beef */
