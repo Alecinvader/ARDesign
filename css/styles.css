@@ -139,7 +139,17 @@ body {
   background-image: url("../images/recipeasygif.gif");
   background-size: cover;
 }
-.project-card-row {
+#tagteam-project {
+  background-image: url("../images/tagteam-image.PNG");
+  background-size: cover;
+  background-position: center;
+}
+#youtube-project {
+  background-image: url("../images/youtube-lti.PNG");
+  background-size:cover;
+  background-position: center;
+}
+ .project-card-row {
   height: 280px;
 }
 .projects {
